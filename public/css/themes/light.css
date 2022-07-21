@@ -1,0 +1,80 @@
+/**
+ * MIT License
+ *
+ * Copyright (c) 2021-2022 FoxxoSnoot
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+:root {
+    --brand_color: #f35045;
+    --brand_color_darkened: #c23e34;
+    --font_family: 'Source Sans Pro', sans-serif;
+    --divider_color: #ced4da;
+
+    --body_bg: #f5f5f5;
+    --body_color: #333;
+    --link_color: #007bff;
+    --link_color_hover: #0056b3;
+
+    --currency_icon_normal: url('/img/currency.png');
+    --currency_icon_light: url('/img/currency_light.png');
+    --currency_icon_navbar: url('/img/currency.png');
+
+    --headshot_bg: #eee;
+
+    --navbar_bg: #fff;
+    --navbar_color: #333;
+    --navbar_border_color: transparent;
+    --navbar_box_shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    --navbar_headshot_bg: #eee;
+
+    --sidebar_bg: #fff;
+    --sidebar_bg_hover: #f5f5f5;
+    --sidebar_border_color: #d6d6d6;
+    --sidebar_box_shadow: none;
+    --sidebar_title_color: #787878;
+    --sidebar_title_border_color: #afafaf;
+    --sidebar_link_color: #636363;
+    --sidebar_notification_bg: #f35045;
+    --sidebar_notification_color: #fff;
+
+    --section_bg: #fff;
+    --section_bg_hover: #eee;
+    --section_bg_disabled: #eee;
+    --section_bg_inside: #eee;
+    --section_color: #333;
+    --section_color_disabled: #585858;
+    --section_border_color: #00000020;
+    --section_border_color_inside: #00000020;
+    --section_box_shadow: 0 0.125rem 0.25rem #00000014;
+
+    --input_bg: #fff;
+    --input_bg_disabled: #e1e1e1;
+    --input_bg_focus: #fff;
+    --input_color: #495057;
+    --input_color_placeholder: #545b61;
+    --input_border_color: #ced4da;
+    --input_border_color_focus: #ffcdcd;
+
+    --text_muted_color: #6c757d;
+
+    --btn_info_bg: #d6d6d6;
+    --btn_info_color: #333;
+}
